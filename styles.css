@@ -1,0 +1,107 @@
+*::before,
+*::after,
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  /* Add a background gradient from the top to the bottom of the page*/
+  background-image: linear-gradient(to bottom, #b07878, #fff);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: start;
+}
+
+.nav-list--secondary {
+  display: flex;
+  justify-content: end;
+  margin-top: -2.2em;
+}
+
+li {
+  margin-right: 2.9em;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: rgb(117, 30, 56);
+}
+
+.container {
+  /* Center the container */
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.header {
+  text-align: center;
+  color: rgb(117, 30, 56);
+  margin: 2em 0;
+  font-size: 1.6rem;
+}
+
+.header:hover {
+  opacity: 0.6;
+}
+
+.content {
+  justify-content: space-between;
+  margin-top: 2em;
+  width: 62%;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  height: 250px;
+  width: 100%;
+}
+
+.sidebar {
+  width: 30%;
+  margin-top: 2em;
+  text-align: center;
+  color: #fff;
+}
+
+.col {
+  background-color: rgb(117, 30, 56);
+  padding: 2em;
+  margin-bottom: 1.1em;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: rgb(236, 213, 213);
+  color: #000;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+span {
+  color: rgb(117, 30, 56);
+  font-weight: bold;
+}
